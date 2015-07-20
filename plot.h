@@ -20,7 +20,7 @@
 #ifndef PLOT_H
 #define PLOT_H
 
-#include <QWidget>
+#include <QtWidgets/QWidget>
 
 class CircularBuffer;
 class QwtPlotMarker;

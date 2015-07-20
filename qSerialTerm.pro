@@ -17,15 +17,17 @@
 # along with qSerialTerm.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-QT          +=  core gui
+QT          +=  core gui uitools serialport
 
 win32 {
     CONFIG +=  serialport qwt
 }
 
 unix {
-    LIBS +=  -lSerialPort -lqwt
-    INCLUDEPATH += /usr/include/qwt
+    LIBS +=  -lqwt
+    #INCLUDEPATH += /usr/include/qwt
+    INCLUDEPATH += /usr/local/qwt/include
+    LIBPATH += /usr/local/qwt/lib
 }
 
 TARGET      =   qSerialTerm

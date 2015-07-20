@@ -20,7 +20,7 @@
 #ifndef TERMINALWIDGET_H
 #define TERMINALWIDGET_H
 
-#include <QWidget>
+#include <QtWidgets/QWidget>
 
 namespace Ui {
   class TerminalWidget;

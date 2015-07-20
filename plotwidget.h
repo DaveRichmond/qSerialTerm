@@ -20,8 +20,8 @@
 #ifndef PLOTWIDGET_H
 #define PLOTWIDGET_H
 
-#include <QWidget>
-#include <QSpacerItem>
+#include <QtWidgets/QWidget>
+#include <QtWidgets/QSpacerItem>
 
 #include "plot.h"
 
